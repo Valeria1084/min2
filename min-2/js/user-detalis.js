@@ -33,7 +33,7 @@ button.onclick = () => {
                 button2.classList.add('button2')
                 button2.innerText='post-details'
                 button2.onclick =()=> {
-                    location.href =`../html/post-details.html`
+                    location.href =`./post-details.html?data=${JSON.stringify(post)}`
                 }
 
 
