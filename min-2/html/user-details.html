@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+     body {
+         display: grid;
+        justify-content: center;
+    }
+
+    .userAll{
+        width: 670px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid darkgrey;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    .userAll:hover {
+        background: #fcf3f3;
+        transition: .3s;
+        transform: rotateY(2grad);
+
+    }
+    .button2{
+        width: 90%;
+    }
+     .cardPost {
+         padding: 5px;
+         width: 200px;
+         margin: 3px;
+         margin-left:calc(20% - 100px);
+         margin-right:calc(20% - 100px);
+         border: 1px solid darkgrey;
+         border-radius: 15px;
+         cursor: pointer;
+         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+     }
+
+
+     .cardPost:hover {
+         background: #cac6c6;
+         transition: .3s;
+         transform: rotateY(2grad);
+     }
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+</style>
+<div class="userAll"></div>
+<div class="posts"></div>
+<div class="userCont"></div>
+<script src="../js/user-detalis.js">
+</script>
+</body>
+</html>

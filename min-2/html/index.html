@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    .users {
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .user{
+        width: 500px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid darkgrey;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    .user:hover {
+        background: #fcf3f3;
+        transition: .3s;
+        transform: rotateY(2grad);
+
+    }
+    .user h3 {
+        margin: 0;
+    }
+
+    .user h4 {
+        height: 50px;
+    }
+</style>
+<div class="users"></div>
+<script src="../js/main.js"></script>
+</body>
+</html>

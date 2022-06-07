@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    body {
+        display: grid;
+        justify-content: center;
+    }
+
+    .postAll{
+        width: 670px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid darkgrey;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    .postAll:hover {
+        background: #fcf3f3;
+        transition: .3s;
+        transform: rotateY(2grad);
+    }
+
+</style>
+<div class="postAll"></div>
+<div class="comAll"></div>
+<script src="../js/post-details.js"></script>
+</body>
+</html>
